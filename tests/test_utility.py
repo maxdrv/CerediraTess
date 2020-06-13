@@ -23,3 +23,7 @@ class TestUtility(TestCase):
                                            {'username': 'unixshaman_15\\unixshaman', 'password': '1qaz@WSX'})
         print(res)
         assert ('asdf' in res) is True, 'Скрипт выполнился'
+
+    def check(self):
+        # fork test
+        print('nothing')
